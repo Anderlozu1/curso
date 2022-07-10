@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios en HTML</title>
+</head>
+<body>
+    
+    
+    <!--FORMULARIOS-->
+    
+    
+<h1>Formularios</h1>
+
+<!--form: crear formulario-->
+<!--for: lo que se coloca como referente-->
+
+<!--method="post": Se envie la información de forma privada y que no se visualize-->
+<!--action: Elegir el nombre del servidor-->
+<!--target="_blank": Se muestre la respuesta en otra pagina-->
+<!--novalidate: todas las casillas del formulario no sean obligatorias-->
+<!--autocomplete="off": no se autocomplete al dar click-->
+
+
+
+<form method="post" action="mi_servidor" target="_blank" autocomplete="off">                                             
+    
+  
+  
+  <fieldset>                                  <!--Se agrega un marco-->
+    <legend>Datos personales</legend>         <!--Se agrega un titulo-->
+      
+      
+      <label for="idpersona">ID Persona:</label>            
+      <br>
+      
+      <!--input type="text": La casilla donde el usuario puede escribir-->
+      <!--placeholder: El usuario dentro de la casilla sepa de que escribir-->
+      <!--required="true": Si es obligatorio escribir en la casilla-->
+      
+        <input type="text" id="idpersona"                 
+        required="true" readonly="true" disabled="true" value="50">   
+        <br>
+        
+      <!--hidden: Que no es mostrado en la pantalla                     "SI SE ENVIA AL SERVIDOR"-->
+      <!--disabled="true" Que este deshabilitada para el usuario        "NO SE ENVIA AL SERVIDOR"-->
+      <!--readonly="true": El usuario no puede modificar el input       "SI SE ENVIA AL SERVIDOR"-->
+      
+    
+    <!--TEXT-->
+        
+    
+        <label for="apellido">Apellido:</label>
+        <br>
+
+      
+        <input type="text" id="apellido" name="apellido"       
+        placeholder="Escribe tu apellido" required="true">
+        <br>       
+      
+    
+    <!--PASSWORD-->
+      
+        
+        <!--input type="password":  No se muestre los digitos-->
+        <label for="password">Contraseña:</label>
+        <br>
+
+      
+        <input type="password" id="password" required="true">
+        <br>
+
+    
+    <!--EMAIL-->
+
+          
+          <!--input type="email": Para poner un email-->
+          <label for="email">Email:</label>
+          <br>
+
+      
+          <input type="email" id="email" placeholder="Escribe tu email" required="true">
+          <br>
+
+  
+    <!--NUMBER-->
+
+          
+          <!--step="any": Se pueda agregar valor decimal-->
+          <!--number: Se pueda agregar en numeros-->
+          <label for="edad">Edad</label>
+          <br>
+
+          <input type="number" id="edad" required="true" step="any">
+          <br>
+      
+    
+    <!--RADIO-->
+        
+          
+          <!--radio: Para que se muestre un puntico como señal, solo se selecciona uno-->
+          <!--name iguales: se coloca el mismo name para que solo se pueda seleccionar una opción-->
+          <!--checkbox: se puedan seleccionar más opciones-->
+          <label>Genero:</label>
+          <br>
+
+          <input type="radio" id="masculino" name="genero" value="masculino">
+          <label for="masculino">Masculino</label>
+          <br>
+
+          <input type="radio" id="femenino" name="genero" value="femenino">
+          <label for="femenino">Femenino</label>
+          <br>
+
+
+    <!--CHECKBOX-->
+
+          
+          <label>Música favorita</label>
+          <br>
+
+          <input type="checkbox" id="jazz" name="musica" value="jazz">
+          <label for="jazz">Jazz</label>
+          <br>
+
+          <input type="checkbox" id="electronic" name="musica" value="electronic">
+          <label for="electronic">Electrónica</label>
+          <br>
+
+          <input type="checkbox" id="clasica" name="musica" value="clasica">
+          <label for="clasica">Clásica</label>
+          <br>
+
+
+    <!--SELECT Y OPTION-->
+          
+          
+          <!--select: pestaña donde dentro se va a agregar la informacion-->
+          <!--multiple: Se seleccionen y vean todas las opciones-->
+          
+          <!--option: opciones que se pueden elegir dentro del select-->
+          <!--selected="true": se va a mostrar primero el valor seleccionado -->
+          <!--solo se va a leer lo que esta dentro del value, pero en la pagina se mostrara encerrado-->
+
+          <label for="autos">Escoja su marca de autos favoritos</label>
+          <br>
+
+          <select id="autos" name="autos" multiple="true">
+            <option value="mazda">Volvo</option>
+            <option value="bmw" selected="true">BMW</option>
+            <option value="Koenigsegg">Koe</option>
+          </select>
+          <br>
+
+
+    <!--TEXTAREA-->
+    
+          
+          <!--textarea: lo que se coloca se escribe tal cual-->
+          <!--rows: renglones                   cols: columnas-->
+          <!--Los rows y cols se aplican segun lo que este en el codigo y la cantidad de estos-->
+
+          <label for="comentario">Comentarios</label>
+          <br>
+
+          <textarea id="comentario" name="comentario" rows="2" cols="4">
+              Este texto tiene espacios
+          </textarea>
+          <br>
+
+    <!--SUBMIT-->
+      
+        
+          <!--value: Se tenga un nombre predeterminado-->
+          <!--input type="submit": Crear un boton-->
+          <input type="submit" value="Enviar">
+          <input type="submit" formnovalidate="formnovalidate" value="Enviar sin necesidad de escribir"> 
+          <input type="reset" value="Reiniciar">     
+      
+          <br>
+
+      
+      
+    
+      
+      
+  </fieldset>
+
+</form>
+</body>
+</html>

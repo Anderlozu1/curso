@@ -1,0 +1,23 @@
+h1{color: rgba(31, 117, 89, 0.541); }
+
+ul{list-style-type: none;                               /*No aparezcan los punticos*/
+   background-color: rgb(173, 218, 203);
+   overflow: hidden;                                    /*Se cambia el fondo con scroll o sin*/
+   margin: 0px;
+   padding: 0px;                                        /*El tamaño del fondo sea coherente con los links*/
+
+}                                   
+
+li{ float:left;}                                        /*Se ordenen de manera horizontal hacia la izquierda*/
+
+li a{display: block;                                    /*Podemos seleccionar los links que se encuentran solo en la lista*/
+     color: blueviolet;                               /*Color texto*/
+     text-align:center;                                 /*Texto en el centro*/
+     padding: 15px;                                     /*La distancia entre cada link es de 15px*/
+     text-decoration: none;                             /*Sin subrayado*/
+
+}                                 
+
+li a:hover{                                             /*Cuando se pase por encima cambie de color*/
+    background-color: #1d3557;
+}

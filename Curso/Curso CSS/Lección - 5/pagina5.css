@@ -1,0 +1,43 @@
+
+/*Colocar image, repeticiones de la imagen, posicionamiento, desplazamiento de la imagen con el scroll*/
+
+
+/*   background-image: url(link);        COLOCAR IMAGEN 
+
+
+     background-repeat: no-repeat;       NO SE REPITA LA IMAGEN 
+     background-repeat: repeat-x;        SE REPITA EN X
+
+
+     background-position: center;        SE POSICIONE EN EL MEDIO LA IMAGEN
+     
+
+     background-attachment: fixed;       LA IMAGEN QUEDE QUIETA
+                           scroll;       LA IMAGEN SE MUEVA SEGUN EL MOVIMIENTO DE LA DIRECCIÓN       */                              
+
+
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+
+
+    background-image: url("/Curso CSS/Lección - 5/fondo.png");               
+    background-repeat: no-repeat;
+         
+
+
+    background-position: center;          
+
+    background-attachment: fixed;         
+
+
+
+/* background: dodgerblue  url("/Curso CSS/Lección - 5/fondo.png") no-repeat center */
+/* background-attachment se coloca aparte                                           */
+
+}
+
+h1{
+    background-color: dodgerblue;
+    text-align: center;
+}

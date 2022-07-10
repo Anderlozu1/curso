@@ -1,0 +1,54 @@
+.h1titulo{color:#e72585;
+   text-align:center;
+   margin: 15px
+}
+
+h2{color:#3f37;
+}
+
+#parrafos-texto{color:#457;
+    background-color: #375;}      /*Solo se puede utilizar UNA VEZ, osea que solo un parrafo lo utilize*/
+        
+
+/*Clase de css, se puede aplicar a los titulos, parrafos, etc*/
+.tarjeta{border: 6px solid #375;
+    background-color: #f35352;
+    text-align: center;
+    margin: 15px 190px;
+    padding: 15px}
+
+/* Lo que hay aca se aplica en toda la pagina, pero si esta en un valor determinado, se quita y se pone ese
+*{margin: 0px;
+  padding: 0px} 
+*/
+
+
+.span{color: #e352; background-color: beige}
+
+
+
+/*--------------IFRAME---------------*/
+
+
+.iframe{color: #352;
+        text-align: center;}
+
+.marco{width: 100%;                               /*Se utiliza el 100% del ancho de la pagina*/
+       height: 200px;
+       border: 1px solid rgb(143, 78, 207);
+       }
+
+/*Boton exterior para que se muestre en el iframe*/
+
+.centrar{text-align: center;}
+
+.boton{background-color: #375;
+       color: white;
+       border: 2px solid white;
+       text-decoration: none;
+       display: inline-block;                    /*Se usa para que respete el padding y margen que se use*/
+       padding: 10px;
+      }     
+.boton:hover{background: white;
+             color: #375;
+             border:#375}

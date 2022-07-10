@@ -1,0 +1,77 @@
+html{
+    height: 100%                                /*no haya bordes en el exterior*/
+}
+
+
+/*FONDO DE LA PAGINA*/
+
+
+body{margin: 0px; padding: 0px;
+     background: linear-gradient(#7208b7, #3f37c0) /*Degradado lineal, DE UN COLOR A OTRO*/    
+}
+
+
+/*CUADRO DONDE VA LA INFORMACION*/
+
+
+.contenedor{
+    margin: 50px auto;                           /*margen  de 50px alto y bajo y se centra horizontalmente*/
+    width: 400px;
+    padding: 30px;                               /*30px de distancia del borde con la informacion*/
+    background: rgba(0,0,0, .5);               /*fondo negro pero con la mitad de transparencia*/
+    border-radius: 10px;                         /*Se redondea los bordes*/
+}
+
+
+/*LOGIN EDITAR TITULO*/
+
+
+.contenedor h2{margin:0px 0px 30px;             /*Dentro del div contenedor, se va a aplicar a los h2*/
+    padding:0px;
+    font-size: 30px;
+    color:#4cc8f0;
+    text-align: center;
+}
+
+
+/*PREGUNTAS O LABELS*/
+
+
+.contenedor .divs label{color:white;          /*Se edita los label que esten dentro de los divs del form*/
+    font-family: 'Trebuchet MS'
+}
+
+
+/*INPUT EDITAR*/
+
+
+.contenedor .divs input{width: 100%;            /*100% para que pueda ocupar todo el espacio*/
+    padding:10px 0px;                           /*EL LARGO Y ANCHO DE LA CAJA*/
+    color: white;                             /*FONDO blanco*/
+    background: transparent;                    /*fondo transparente*/
+    
+    border: none;                               /*se quita el borde*/
+    border-bottom: 1px solid white;           /*Linea blanca en la parte inferior*/
+    margin-bottom: 30px;                        /*margen en la parte inferior de 30px*/
+}
+
+
+/*BOTON DE ENVIAR*/
+
+
+.contenedor .divs input[type="submit"]{           /*se selecciona los input pero solo los tipos submit*/
+    color:rgba(74, 7, 180, 0.836); background-color:aliceblue; 
+    width: 80%;
+    height: 32px;
+    margin: 25px 40px;                            /*PARA CENTRARLO HAY QUE UTILIZARLAS MARGENES*/
+    border:none;
+    
+    letter-spacing: 4px;                         /*La separacion de las letras son mas grandes*/
+    text-transform: uppercase;                   /*Se transforma el texto a mayusculas*/
+    cursor: pointer;                             /*Cuando pase por encima haga la animacion que se presione*/
+}
+
+.contenedor .divs input[type="submit"]:hover{         /*cuando se pase por encima cambia de color*/
+    color:aliceblue; background-color:rgba(74, 7, 180, 0.836);
+}
+

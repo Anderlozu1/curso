@@ -1,0 +1,37 @@
+table, th, td{                                     /*Se elige los valores que se van a cambiar*/
+    border: 7px solid rgb(115, 192, 84);         /*Tamaño del borde la tabla y el color*/
+    padding: 10px;                                 /*Más espacio entre cada celda*/  
+    border-collapse: collapse;                     /*Para que solo se muestre una línea en el borde*/
+    /*border-spacing: 5px;                         El tamaño de los bordes sea mayor*/
+} 
+
+td{ text-align: center;}                           /*Centrar los productos, precos y gmail*/
+
+th{ text-align: left;}                             /*Poner los titulos a la izquierda*/ 
+
+table{ width: 100%;}                               /*Ocupar todo el espacio de la tabla*/
+
+
+/*Editar el título de la tabla*/
+caption{ color: #25685e; background-color: grey;  
+          font-size: 30px; border: 10px solid greenyellow;
+         padding: 18px; margin: auto 190px;
+         line-height: 70px;}                        /*Espacio entre el titulo y la tabla*/
+
+
+/*Editar los cabezeros de la tabla*/
+th{ color: rgba(58, 131, 58, 0.623); background-color: rgb(243, 197, 136);
+    padding: 9px; border: 7px solid rgb(115, 192, 84); margin: auto 200px;
+    font-family:'Gill Sans MT'; font-size: 22px;}
+
+
+/*Editar los renglones pares de la tabla*/
+tr:nth-child(even){color: rgba(0, 0, 0, 0.623); background-color: rgb(209, 204, 197);
+   padding: 9px; border: 7px solid rgb(115, 192, 84); margin: 200px; 
+   font-family: 'Gill Sans'; font-size: 18px}
+
+
+/*Editar los renglones impares*/
+tr:nth-child(odd){color: rgba(0, 0, 0, 0.623); background-color: rgb(157, 228, 154);
+    padding: 9px; border: 7px solid rgb(115, 192, 84); margin: 200px; 
+    font-family: 'Gill Sans'; font-size: 18px}

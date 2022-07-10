@@ -1,0 +1,72 @@
+<!--PRINCIPAL-->
+<!DOCTYPE html>
+<html lang="es">                                                          <!--LENGUAJE-->
+  <head>                                                                  
+    <meta charset="UTF-8" />                                              <!--ACENTOS-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />               <!--COMPATIBLE NAVEGADOR WEB-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos básicos de HTML</title>                              <!--ENCABEZADO-->
+  </head>
+  <body style="background-color:blanchedalmond">                        <!--COLOR FONDO DE PAGINA-->
+    <h1>Curso HTML</h1>                                                   <!--TÍTULO-->
+    <p>                                                                   <!--PARRAFO-->
+      Primer línea del párrafo <br />                                     <!--SALTO DE LÍNEA "mismo parrafo pero en otra línea"-->
+      segunda línea del parrafo                                            
+    </p>
+    <hr />                                                                <!--LÍNEA PARA SEPARAR SUBTITULOS-->
+    <p>Segundo párrafo</p>                                                
+
+<!--LINKS-->    
+    
+    <a href="https://www.razer.com"> Razer </a> <br />                    <!--DIRIGIR A OTRA PÁGINA-->
+    <a href="https://www.razer.com" target="_blank">Razer en otra pestaña</a> <!--OTRA PÁGINA PERO EN OTRA PESTAÑA-->
+    <br />
+    <a href="paginasecundaria2.html">Página secundaria</a>                <!--SE CREA OTRO ARCHIVO HTML "PAGINA SECUNDARIA" Y SE ESCRIBE EL NOMBRE-->
+
+<!--IMAGENES-->
+   <!--PARA UNA IMAGEN DESDE EL ESCRITORIO SE CREA UNA CARPETA DESDE Y LAS IMAGENES DESCARGADAS SE PONEN
+    AHÍ PARA EN VS CODE PONER LA RUTA DE LA CARPETA Y LA IMAGEN-->
+
+    <img src="imagenes2/razer1.jpg" height="580px" />                         <!--IMAGEN DESCARGADA-->
+    <img src="imagenes2/razer2.jpg" height="580px" alt="Razer teclado" />     <!--DESCARGADA Y SI NO APARECE UNA IMAGEN EL ALT REMPLAZA CON TEXTO-->
+    <img src="imagenes2/razer3.jpg" width="580px" />                          <!--CON EL ANCHO-->
+    <img src="imagenes2/razer4.jpg" height="580px" />                         <!--CON EL ALTO-->
+    <img src="imagenes2/razer5.jpg" widht="400px" height="580px" />           <!--COMBINACIÓN ALTO Y ANCHO-->
+    <img src="//assets2.razerzone.com/images/pnx.assets/dc273ad4cada0f50f9bdbd7c565561ff/razer-huntsman-te-compact-form-factor.jpg" />
+     <!--CON UN LINK DE LA IMAGEN-->
+  
+<!--ATRIBUTOS-->
+     <img src="imagenes2/razer1.jpg" height="380px" title="Razer teclado" />  <!--AÑADIR DESCRIPCIÓN A LA IMAGEN QUE SI CARGA-->
+     <p title="Párrafo adicional">Parrafo con información adicional</p>        <!--PARRAFO ADICIONAL A UN TEXTO-->
+     <p title="Párrafo adicional" style="color:green;">Parrafo con color</p> <!--COLOR A UN TEXTO-->
+     <pre>
+           Este elemento pre es para
+      Escribir un texto de                                                    <!--ESCRIBIR TEXTO DE MANERA-->
+        manera desordenada como esta en el editor                             <!--DESORDENADA-->
+     solo sirve para los p    
+     </pre>
+  
+     <p style="color:violet;font-size: 60px;font-family: Impact; ">Personalizar texto</p> 
+     <!--CAMBIAR EL COLOR DE TEXTO, EL TAMAÑO Y EL TIPO DE LETRA, UNDIR CTRL + ESPACIO PARA MIRAR OPCIONES-->
+ 
+<!--FORMATO A UN TEXTO-->
+    
+   <p><b>Texto tiene negrita</b></p>                                          <!-- <b> -->
+   <p><strong>Tiene negrita pero resalta algo importante</strong></p>         <!-- <strong> -->  
+   <p><i>Texto esta en cursiva</i></p>                                        <!-- <i> -->
+   <p><em>Tiene cursiva pero es para infatizar</em></p>                       <!-- <em> -->
+   <p><small>Texto es pequeño</small></p>                                     <!-- <small> -->
+   <p><mark>Texto se resalta de amarillo</mark></p>                           <!-- <mark> -->
+   <p><del>Texto se elimina o se traza una ralla encima</del></p>             <!-- <del> -->
+   <p><ins>Texto subrayado</ins></p>                                          <!-- <ins> -->   
+   <p>Se coloca dentro de la etiqueta lo <sub>chiquito</sub></p>              <!-- <sub> -->
+   <p>Se coloca dentro de la etiqueta lo <sup>grande</sup></p>                <!-- <sup> -->
+    
+  
+<!--Enviar EMAIL-->
+  
+    <a href="mailto:anderlozu@gmail.com?subject=Contacto&body= email">Enviar email</a> 
+
+    
+  </body>
+</html>

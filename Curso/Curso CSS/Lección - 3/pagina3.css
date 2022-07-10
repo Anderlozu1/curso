@@ -1,0 +1,57 @@
+h1{ color: blueviolet; font-size: 35px; text-align: center;}
+
+
+/*       PADDING, BORDER, MARGIN, OUTLINE, OUTLINE-OFFSET, WIDTH, BOX-SIZING: BORDER-BOX.        
+
+
+    maxwidth: 300px;                COLOCA UN ANCHO MÁXIMO A UN ELEMENTO Y DE AHÍ NO PASA
+
+    outline: 10px solid red;        MARGEN EDITADO CON COLORES
+    outline-offset: 15px;           ESPACIO ENTRE EL BORDE Y MARGIN
+ 
+    box-sizing: border-box;         SE ACOPLA LA INFORMACIÓN HASTA EL BORDE   
+
+*/
+.caja{
+    padding: 25px 35px;                /*Espacio entre el contenido y el borde*/
+                                       /*25px arriba y abajo - 35px derecha y izquierda*/
+
+                                       /* ORDEN: ARRIBA - DERECHA - ABAJO - IZQUIERDA*/
+                                       /*        top      right     bottom    left   */
+
+
+
+    border: 15px solid #457b9d;      /*Borde*/
+    margin:  60px auto;                /*auto = SE CENTRA AUTOMATICAMENTE, en este caso vertical*/
+    background-color: #f1faee;       
+
+
+    
+    max-width: 300px;                  /*el tamaño maximo del ancho del contenido es 300px y no va a crecer mas*/
+   
+
+    
+    outline: 10px double #a8dadc;     /*SE PONE ENCIMA DEL MARGEN*/
+    outline-offset: 10px;               /*ESPACIO QUE HAY ENTRE EL BORDE Y OUTLINE*/
+
+
+
+    box-sizing: border-box;             /*SE ACOPLARA TODO A LOS 300PX DEL WIDTH*/
+
+}
+
+
+
+/*ejercicio*/
+
+
+h3{ color: #f88;
+   
+   padding: 20px 45px;
+   border: groove 14px #a35;
+   margin: 60px;
+   outline: 20px double #a79;
+   background-color: royalblue;
+   width: 450px;}
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos inline y block</title>
+    <link rel="stylesheet" href="/Curso HTML/Lección - 7/estilos.css">
+</head>
+
+
+
+<!--DIV, SPAN Y BOTON PARA DIRIGIR A UNA SECCION DE LA PAGINA-->
+
+
+
+<!--SPAN sirve para cambiar una palabra de un texto sin modificar el resto-->
+
+
+<body>
+  <h1>Elementos span (inline), en una zona respectiva</h1>
+  
+  <p> Texto donde vamos a <span style="color: red;border: 2px solid green">enfatizar</span> y 
+      <span style="color:blueviolet">cambiar el color</span> de algunos elementos</p> 
+
+
+<!--DIV los bloques-->
+
+
+  <h1 class="h1titulo">Elemento div (block)</h1>
+
+  
+  <div class="tarjeta">                         <!--.tarjeta en css y ponerlo aca hace que se aplique-->
+      <h2 id="titulo1">Titulo del div</h2>
+      <p><span class="span">Texto</span> dentro del div</p>
+  </div>
+
+  
+  <div class="tarjeta">
+      <h2 id="titulo2"> Segundo parrafo del div</h2>
+      <p id="parrafos-texto"> texto del div</p>
+  </div>
+
+  
+  <div class="tarjeta">
+      <h2 id="titulo3">Tercer parrafo del div</h2>               <!--Aquí se declara la variable del id-->
+      <p><span class="span">Tercer</span> texto del div</p>
+  </div>
+
+  
+  <!--ID - Dar click a un objeto y que lo lleve a la parte-->
+  
+  
+  <div class="tarjeta"> 
+        <a href="#titulo1">Titulo 1</a>           <!--Se declara la variable cambio junto con el titulo-->
+        <a href="#titulo2">Titulo 2</a>           <!--Se puede poner en los div-->
+        <a href="#titulo3">Titulo 3</a>           <!--Se aplica la variable cambio con un link-->
+  </div>
+                                                  <!--ID y CLASS se pueden convinar-->
+                                                  
+   
+   <p>Texto fuera del div</p>
+   <hr>
+
+
+<!--DIV pero sin que se aplique css-->
+
+   
+   <div>                                        <!--Como no esta .tarjeta no se aplica los estilos-->
+       <h2>Titulo div sin css</h2>
+       <p>Parrafo div sin css</p>
+   </div>
+   <hr>
+
+   
+<!--IFRAMES-->
+
+
+   <h1 class="iframe">Uso de iframe en HTML</h1>
+   <iframe src="texto.html" class="marco"></iframe>                        <!--Se crea los bordes y se incrusta la pagina-->
+
+   <h1 class="iframe">IFRAME pero con un sitio web</h1>
+
+   <iframe src="https://www.twitch.tv" class="marco" name="variable"></iframe>
+   
+   <div class="centrar">
+      <a href="https://www.twitch.tv/barcagamer" target="variable" class="boton">
+          Link que se muestre en el iframe
+      </a>
+   </div>
+</body>
+</html>

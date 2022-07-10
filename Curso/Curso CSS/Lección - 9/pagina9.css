@@ -1,0 +1,50 @@
+/*   
+    display: block;           Ocupan una línea, no se amontonan y ocupan todo el ancho 
+            inline;           Se agrupan en una línea 
+              none;           Se oculta y no se ve
+
+    visibility: hidden;       Se oculta pero SE GUARDA EL ESPACIO DEL ELEMENTO
+*/
+
+h1{ text-align: center;
+    color: white;
+    border: 3px groove rgba(121, 71, 214, .2);
+    border-radius: 8px;
+    padding: 6px;
+    background-color: rgb(209, 158, 243);
+    text-shadow: 3px 3px 8px rgb(56, 27, 221);
+    font-size: 35px;
+
+    display: block;
+    
+}
+
+h2, div, p, h5{
+    text-align: center;
+    color: cornflowerblue;
+    border: 3px groove #d46;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: rgb(203, 228, 219);
+    text-shadow: 3px 3px 8px rgb(194, 98, 98);
+    font-size: 20px;
+
+    display: block;
+    
+    
+}
+
+span{
+    color: red;
+    border: solid 2px blue;
+}
+
+a{
+    display: block;
+}
+
+/* EJEMPLO */
+
+li{
+    display: inline;
+}

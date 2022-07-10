@@ -1,0 +1,58 @@
+
+/*USAR ICONOS BOOKSTRAP*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+
+h1{
+    text-align: center;
+    color: crimson;
+
+}
+
+div{
+    padding: 25px;
+    margin: auto;
+    max-width: 400px;
+}
+
+
+/* ICONOS BOOKMARCKS  */
+
+.icono{
+    font-size: 2.6em;
+    color: red;
+    vertical-align: bottom;                /*  vertical-align: bottom;      para que se alinea con el texto*/
+}
+
+
+.svg-editado{
+    font-size: 5em;
+    color: green;
+    vertical-align: bottom;
+}
+
+
+/*  ICONOS DE GOOGLE  */
+
+
+.google{
+    font-size: 50px;
+    color: lightcoral;
+    vertical-align: bottom;
+}
+
+.aprender{
+    color: orangered;
+    font-size: 28px;
+    vertical-align: bottom;
+}
+
+
+/*ICONOS CON IONIC ICONS*/
+
+
+.bateria{
+    font-size: 35px;
+    color: goldenrod;
+    vertical-align: bottom;
+}

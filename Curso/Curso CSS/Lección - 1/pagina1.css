@@ -1,0 +1,37 @@
+/*            APLICAR A VARIOS ELEMENTOS        
+
+h1, h2, p{                              
+    color: aqua;                          
+    text-align: right;
+
+}                                             /*Se aplica a los elementos h1, h2 y p */
+
+               ID              
+
+
+#colores{
+    color: crimson;
+    text-align: center;
+}
+
+
+            CLASS              
+
+
+.centrar-texto{
+    text-align:center;
+}
+
+.texto-grande{
+    text-align: center;
+    font-size: 40px;
+    color: aquamarine;
+
+}
+
+
+
+p.color{
+    text-align: center;
+    color: darkolivegreen;      /* A los elementos p se le agrega el class color   */
+}

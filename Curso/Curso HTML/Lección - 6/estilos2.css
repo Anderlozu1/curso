@@ -1,0 +1,23 @@
+ol{
+    list-style: none;
+    counter-reset: contador;                     /*se declara la variable "contador" para que se muestre*/
+}
+
+
+ol li{
+    counter-increment: contador;                 /*Para que se aplique a cada variable del contador*/
+/*MODIFICAR LAS LINEAS DE LAS LISTAS ORDENADAS, BEFORE PARA QUE ANTES DE EMPEZAR LA LISTA SE MUESTRE ALGO*/
+}
+
+ol li::before{
+    content: 'Antes ' counter(contador) ')  ';          /*contador es una variable*/
+    color: red                                        /*Se va incrementando de 1 en 1*/
+}
+
+
+/*MODIFICAR LINEAS DESPUÉS DE LA LISTA*/
+
+ol li::after{                                  
+    content: 'Despues'
+}
+

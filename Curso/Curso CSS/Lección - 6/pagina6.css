@@ -1,0 +1,165 @@
+/*  text-transform: uppercase;                 TRANSFORMAR TEXTO A MAYÚSCULA              46   
+
+
+    letter-spacing: 5px;                       ESPACIO DE SEPARACIÓN DE LAS LETRAS        71 
+    word-spacing:   10px;                      ESPACIO DE SEPARACIÓN DE LAS PALABRAS      72
+
+
+    text-align: justify;                       LOS LADOS OCUPAN EL MISMO ESPACIO          87     
+    direction: ltr;                            SE LEE DE IZQUIERDA A DERECHA              88
+     
+
+    text-decoration:  overline;                SUBRAYADO SUPERIOR                         73
+                     underline;                SUBRAYADO                                  89
+                  line-through;                TACHADO                                    102
+
+
+    text-indent: 30px;                         INDENTACIÓN DEL TEXTO                      114          
+    line-height: 2.4;                          ESPACIO QUE HAY ENTRE RENGLONES            115 
+    white-space: normal;                       SE AJUSTA AL TAMAÑO DEL DIV                116
+*/
+
+
+body{background-color: #f355}
+
+
+
+/*APRENDIDO*/
+
+
+
+h1{
+    color: darkolivegreen;
+    background-color: beige ;
+    text-align: center;
+    text-decoration: overline;
+    
+
+    text-transform: uppercase; 
+    
+    text-shadow: 20px 2px 2px #ced4da;
+        /* Ejes:  x   y  Difuminado  */      /*2px de distancia de distancia y 2 de intensidad de sombreado*/
+        /*DIFUMINADO: mientras más grande el número más borroso se va a ver*/
+}
+
+
+
+.caja{
+    width: 550px;
+    height: 250px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: bisque;
+    border-radius: 10px;
+    border: groove 8px #f99;
+}
+
+
+
+.titulo{ 
+    text-align: center;
+    color: #b53;
+    background: none;   
+    letter-spacing: 19px;
+    word-spacing: 10px;
+    text-decoration: overline underline;
+    
+}
+
+
+
+.caja p{
+    color: #d445;
+    margin: 6px;
+    font-size: 25px;
+
+    text-shadow: 5px 4px 6px #b53;
+
+
+
+    text-align: justify;                    /*   Los lados del texto van a ser iguales               */
+    direction: rtl;                         /*   Se lee de izquierda a derecha                       */
+    text-decoration: underline;             /*   Subrayado                                           */
+}
+
+
+.tachado{
+    color: #d445;
+    margin: 6px;
+    font-size: 25px;
+    text-shadow: 5px 4px 6px #b53;
+
+
+
+    text-align: justify;
+    direction: rtl;
+    text-decoration: line-through;         /*   Linea tachada                                         */
+    
+    
+    text-indent: 30px;                     /*   Indentación del texto                                 */
+    line-height: 2.4;                      /*   Espacio que hay entre las líneas                      */
+    white-space: normal;                   /*   Se ajusta al tamño del div                            */
+}
+
+
+
+
+
+/*                          EJERCICIO                       */
+
+
+
+/*DIV*/
+
+.caja2{
+    width: 500px;                            /*ANCHO*/
+    height:250px;                            /*ALTO*/
+    padding: 15px;                           /*DISTANCIA CONTENIDO-BORDE*/
+    background-color: #d99;                /*COLOR DE FONDO*/
+    border: 10px ridge #a34a;              /*BORDE*/
+    margin: 100px auto;                      /*MARGEN*/
+    outline: 10px groove #a77;             /*COLOR DEL MARGEN*/
+    
+}
+
+
+/*TITULO H1*/
+
+
+.titulo2{ 
+    color: #a66;                           /*COLOR*/             
+    font-family: verdana;                    /*ESTILO DE LETRA*/
+    font-size: 30px;                         /*TAMAÑO DE LETRA*/
+    text-align:center;                       /*TEXTO CENTRADO*/
+    text-shadow: 5px 2px 6px #a34a;          /*SOMBRA DE TEXTO*/
+    text-decoration: overline underline line-through;  /*LINEAS DE DECORACION*/
+    white-space: normal;                     /*ACOMPLACION CON EL DIV*/
+    line-height: 3;                          /*DISTANCIA ENTRE LINEAS*/ 
+    text-transform: uppercase;               /*LETRA A MAYÚSCULA*/
+
+    letter-spacing: 7px;
+
+
+    
+}
+
+
+/*PARRAFO P*/
+
+
+.parrafo2{
+    color: #b34a;                          /*COLOR*/
+    text-align: justify;                     /*ALINEACION DE TEXTO*/  
+    font-size: 20px;                         /*TAMAÑO DE TEXTO*/
+    padding: 10px;                           /*DISTANCIA CONTENIDO-BORDE*/
+    margin: 8px;                             /*DISTANCIA BORDE CON EL DIV*/
+    white-space: normal;                     /*ACOPLACION CON EL DIV*/
+    line-height: 1.7;                        /*DISTANCIA DE LINEAS*/
+
+    text-shadow: 4px 5px 5px #a55;         /*SOMBRA*/
+}
+
+
+
+
+

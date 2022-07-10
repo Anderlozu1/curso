@@ -1,0 +1,43 @@
+p{color:rgba(83, 8, 56,.8); font-size: 16px;
+  background-color: #A4B494; 
+}
+
+/*Se modifica a todos los parrafos el color del texto, el tamaño, y el fondo.*/
+
+h3{color: rgb(38, 110, 38); font-size: 24px; font-family: 'Trebuchet MS';
+  background-color: rgba(151, 142, 142,.7);   
+}
+
+/*Se modifica al texto h3 el color, el tamaño, estilo de letra y el color de fondo*/
+
+h4{color: aquamarine; background-color:rgba(83, 8, 56,.8)}
+
+/*Como el style desde la pagina html se cuenta primero, este lo va a ignorar, y solo se va
+  a escribir los cambios que hayan en el style del html*/ 
+
+h5{color:blue; background-color: lightskyblue; padding: 13px;
+border: 10px solid aquamarine;
+margin: 40px;  
+text-align: center;
+}
+
+/*PARA VER LOS CAMBIOS HAY QUE COLOCAR EL COLOR EN LOS BACKGROUNDS*/
+/*MARGEN PARA LOS ESPACIOS DEL OBJETO*/
+
+h6{ /*font-size: 46px;
+  margin-top: 55px;
+  margin-right: 65px;               se tiene en cuenta el orden de arriba; top, right, bottom, left
+  margin-bottom: 35px;
+  margin-left: 45px;*/             /* si solo se pone 2 numeros cojera el primero para arriba y abajo
+                                      y el segundo el de derecha a izquierda*/ 
+  
+  /*margin: 55px 65px 35px 45px;¨*/ 
+     
+  
+  margin: auto 180px;              /* se CENTRA HORIZONTALMENTE, SE USA COMO PARA TITULOS*/
+  text-align: center;              /*PARA CENTRAR EL TEXTO EN EL MARGEN*/
+  
+  
+  padding: 33px 12px 21px 40px; background-color: antiquewhite;
+  
+  }

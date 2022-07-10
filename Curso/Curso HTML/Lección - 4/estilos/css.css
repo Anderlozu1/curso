@@ -1,0 +1,39 @@
+h1{color: goldenrod; background-color: hsla(33, 100%, 88%,.7);
+    font-size: 55px; font-family: 'Segoe UI'; margin: auto 240px;
+    border: 23px solid cadetblue; padding: 30px; text-align: center;
+}
+
+/*LINKS*/
+
+a:link{
+    color:rgba(64, 64, 216, 0.644);                  /*No se ha dado click*/
+    text-decoration: none;                             /*para que no se muestre el subrayado*/
+}
+a:visited{
+    color:rgba(51, 223, 122, 0.863);                 /*ya estan visitados*/
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(90, 90, 168);                          /*este el mouse encima*/
+    text-decoration: underline;                        /*se muestre el subrayado*/
+}
+a:active{                                              /*cuando se de click cambie de color*/
+    color:#023047;
+    text-decoration: underline;
+}
+
+/*LINK PERO EN TITULO*/
+  
+h2{
+    color:rgba(51, 223, 122, 0.863);
+}
+
+a:link, a:visited {color:yellowgreen;                /*Los dos se pueden poner como una misma configuracion*/
+background-color: bisque; padding: 25px 15px; 
+border: 8   px solid rgba(95, 184, 95, 0.705);       
+text-align: center; margin: auto 490px;
+font-family: monospace; text-decoration: none;
+display:inline-block;                                  /*Para que dos cosas no queden una encima de otra*/
+}
+
+a:hover, a:active{color:brown; background-color: whitesmoke;}

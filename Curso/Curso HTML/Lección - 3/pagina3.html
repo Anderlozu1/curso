@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leccion 3</title>
+    
+    <style> h2{color: green;font-size: 18px;font-family:Times; }</style>
+    <!--<style> p{color:rgba(83, 8, 56,.4); font-size: 16px;}</style>-->
+
+</head>
+
+
+<!--ESTILOS COLORES, BORDES, MARGENES Y PADDING, TRANSPARENCIAS-->
+
+
+<body style="background-color: #BEC5AD;">
+    
+    
+    <h1 style="border: 4px solid rgba(199, 21, 133,.4); color: grey">--COLORES Y TRANSPARENCIA Y BORDES</h1>
+        
+    
+        <a href="https://htmlcolorcodes.com/es/nombres-de-los-colores/" target="_blank">link: Catálogo colores por los nombres</a>     
+        <p style="color:darkcyan">Colores con sus nombres</p>
+        <p style="color: rgb(218, 7, 17)">Color con rgb, mostrando el código</p>
+        
+        <p style="border: 5px solid rgba(218, 7, 17,.4)">
+            Borde de color con rgba "transparencia"
+        </p>
+        <p style="color: rgba(108, 45, 222,.4)">Letras de color con rgba "transparencia"</p>
+        <p style="border: 4px solid rgba(32, 76, 231.5); color:rgba(218, 7, 17,.6);">
+        Letra y borde con color diferente y trasparencia diferente
+        </p>
+        
+        <p style="color: rgba(220, 20, 60,.8)"> RGB con transparencia</p>
+        <p style="color: hsl(348, 83%, 47%)">Color con código hsl</p> <!--83% saturación, 47% iluminación-->       
+        <p style="color:hsla(348, 83%, 47%,.7)">Color con código hsl con transparencia</p>  
+        <p style="color: #dc143c">Color con código hexadecimal</p>
+        
+        <hr>
+
+    
+    <h1 style="border: 4px solid rgba(218, 112, 179, 0.4); color: grey">--INTRODUCCIÓN A CSS</h1>
+
+        
+        <h2> EFECTO APLICADO DESDE EL STYLE DEL HEAD</h2> 
+        
+        <p>Parrafo de prueba desde el style del css</p>
+        
+        <h3>Titulo de prueba desde el style del css</h3>
+
+        <link rel="stylesheet" href="estilos.css">
+         
+        <a href="paginaejemplo.html">Pagina externa</a>
+        <hr>
+        
+    
+    <h1 style="background-color:lightsteelblue"> --Estilos en cascada "que se personaliza solo un objeto"</h1>
+        
+        <h2>IMPORTANCIA: DESDE EL ELEMENTO>DESDE EL HTML>DESDE EL CSS</h2>
+
+        <p style="background-color:darksalmon ">Texto con fondo diferente al de toda la pagina
+        esta escrito en la configuración del p</p>
+        
+        <style> h4{color:rgba(255, 228, 196,.6); background-color: rgb(129, 44, 204);}</style>
+        <h4>Prueba comparación style html vs hoja css, solo se cuenta h4 el style del html porque esta
+            primero
+        </h4>
+
+        <h4 style="color:violet; background-color: rgba(0, 255, 255, 0.192);">Prueba
+        Como el style está aplicado desde el elemento, se ignora el que está en el html o en el css</h4>
+
+
+    <h1>BOX MODEL CSS</h1>
+    
+
+        <img src="caja css.png" height="330px">
+        <h5>padding prueba</h5>
+        
+        <h6> box model pero con diferentes medidas</h6>
+
+        <a href="https://coolors.co">Paleta de colores mejores convinaciones</a> 
+    
+    
+    
+    </body>
+</html>

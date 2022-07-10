@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en html</title>
+    <link rel="stylesheet" href="/Curso HTML/Lección - 5/estilo.css">
+    
+    
+</head>
+
+
+<!--TABLAS-->
+
+
+<body>
+    <table>                                                    <!--Crear tabla-->
+        <caption>Información titulo</caption>
+        <tr>                                                   <!--Define un nuevo renglon-->
+            <th>Producto</th>  
+            <th colspan="2">Precio</th>                        <!--Para que el titulo ubique 2 celdas-->            
+                                                               <!--Define un el cabezero de la tabla-->
+        </tr>                                                  <!--Lo que se aplica dentro del tr va en un solo renglon-->
+        <tr>                                                     
+              <td>Netflix</td>                                 <!--Se agrega una celda-->
+              <td>30.000</td>                                  <!--Esta en el mismo renglon a la derecha-->
+              <td rowspan="4">servicios@gmail.com</td>             <!--Para que el renglon quede 2 celdas hacia abajo-->
+         </tr>                                          
+         <tr>                                                     
+            <td>Spotify</td>                                 
+            <td>25.000</td>                                  
+        </tr>
+        <tr>
+            <td> Amazon Prime</td>
+            <td> 20.000</td>
+        </tr>
+        <tr>
+            <td> Play Station Plus</td>
+            <td> 50.000</td>
+        </tr>        
+    
+    </table>
+</body>
+</html>
+

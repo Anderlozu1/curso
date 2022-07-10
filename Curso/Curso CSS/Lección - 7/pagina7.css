@@ -1,0 +1,92 @@
+
+/*    AJUSTAR EL TAMAÑO, FORMAS Y DECORACIÓN DE LAS PALABRAS  
+
+      font-family: Georgia;               Elegir el estilo de letra 
+      font-style:  italic;                Elegir estilo letra
+
+
+      font-size:   1em;                   Tamaño de la fuente             1em = 16px       
+      font-weight: 200;                   Ancho de la fuente
+                  bold;                   Negrita
+                bolder;                   negrita
+
+
+      font-variant: small-caps;           La primera letra de cada palabra es mayúscula
+
+      
+      PARA ESCRIBIR TODO EN UN SOLO FONT:
+      font: font-style, font-variant, font-weight, font-size, font-family
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginnerwght@500&display=swap');
+/* ESCRIBIR UN ESTILO DE LETRA DE GOOGLE FONTS */
+
+
+
+body{padding: 0px;
+margin: 0px;}
+
+
+h1{
+    font-family: 'Edu TAS Beginner';                /* UTILIZAR EN EL TITULO EL GOOGLE FONT*/
+    color: #d45;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    background: rgba(204, 94, 118,.3);
+    border-radius: 10px;
+    border: groove 6px #b43;
+    outline: 9px double #a23;
+    text-decoration: underline;
+    text-shadow: 4px 4px 6px #d35;
+    white-space: normal;
+    text-transform: uppercase;
+
+}
+
+
+.div{
+    float: left;
+    text-align: center;
+    width: 300px;
+    height: 120px;
+    padding: 30px;
+    margin: 30px 100px;
+    border-radius: 8px;
+    border: 6px double #d414;
+    text-decoration: overline;
+    color: rgba(45, 13, 230, 0.8);
+}
+
+
+
+
+
+.fuente-timesnewroman{
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 1.6em;              /*  1.6em = 20px  */
+}
+
+.fuente-arial{
+    font-family: arial;
+    font-style: oblique;
+    font-size: 3vw;               /*  1vw = 1% ancho de la pantalla - MUY UTIL */
+    
+}
+
+.fuente-georgia{
+    font-family: Georgia;  
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fuente-sansserif{
+    font: italic small-caps 500 40px sans-serif;
+}
+
+.fuente-lucida{
+    font-family: 'Lucida Sans Unicode';
+}

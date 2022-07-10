@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leccion 3</title>
+</head>
+<body style="background-color: rgb(236, 165, 165);">
+    
+    
+    <h1 style="color: grey; border: 4px solid rgba(199, 21, 133,.4)"> COLORES</h1>
+        
+    
+        <a href="https://htmlcolorcodes.com/es/nombres-de-los-colores/" target="_blank">
+            Catálogo colores por los nombres</a>     
+        <p style="color:darkcyan">Colores con sus nombres</p>                      <!--NOMBRE CON COLOR DEFINIDO-->                                           
+        <p style="color: rgb(218, 7, 17)">Color con rgb, mostrando el código</p>   <!--COLOR PERO CON RGB-->
+        
+        <p style="border: 5px solid rgba(218, 7, 17,.4)">                        
+            Borde de color con rgba "transparencia" y ,. al                          <!--BORDE CON TRANSPARENCIA-->
+            final de los colores para indicar transparencia
+        </p>
+        <p style="color: rgba(108, 45, 222,.4)">Letras de color con rgba "transparencia"</p> <!--LETRA CON TRANSPARENCIA Y COLOR-->
+        
+        <p style="border: 4px solid rgba(32, 76, 231.5); color:rgb(218, 7, 17,.6);">
+            Letra y borde con color diferente y trasparencia diferente               <!--BORDE Y LETRA CON TRANSPARENCIA-->
+        </p>
+        
+        <p style="color: crimson">Color con código rgb</p>                         <!--RGB-->
+        <p style="color: rgba(220, 20, 60,.8)">Color con código rgb con transparencia</p> <!--RGB CON TRANSPARENCIA-->
+        <p style="color: hsl(348, 83%, 47%)">Color con código hsl</p>              <!--hsl SIN TRANSPARENCIA-->       
+        <p style="color: hsla(348, 83%, 47%,.7)">Color con código hsl con transparencia</p>  <!--hsl CON TRANSPARENCIA-->
+        <p style="color: #dc143c">Color con código hexadecimal</p>                 <!--hexadecimal-->
+
+        <br>
+
+        
+    <h1 style="color: grey; border: 4px solid rgba(199, 21, 133,.4)">INTRODUCCIÓN A CSS</h1>
+
+
+        <h2> EFECTO APLICADO DESDE EL STYLE DEL HEAD</h2> 
+        <!--Desde el style se escoje el objeto que se va a modificar de manera GLOBAL, osea para todos
+        que contengan ese objeto, en este caso "h2", entre "{}" se colocan los cambios que se van
+        a hacer DESDE EL HEAD--> 
+        <!--EJEMPLO: <style>h2{color: green;font-size: 18px;font-family:Times;}</style> -->
+        
+        <p>Parrafo de prueba desde el style del css</p>
+        <!--los "p" fueron modificados todos, SE APLICAN A LOS QUE NO TENGAN UN RGB especificado 
+        desde si mismo, como el del renglon 34, fue aplicado desde el LINK DE CSS-->
+        <!--EJEMPLO: p{color: blue; font-size: 10px: font-family: ARIAL}-->
+        
+        <h3>Titulo de prueba desde el style del css</h3>
+        <!--EJEMPLO: h3{background-color: red; color: blue; font-family: ARIAL;} -->
+
+        <link rel="stylesheet" href="estilos.css">
+        <!--Para DESDE UN ARCHIVO CSS PASAR LA INFORMACIÓN A UNO HTML SE CREA ESCRIBE EL LINK DE ARRIBA-->
+        <!--Solo se copia de lo que se va a cambiar sin las etiquetas y las llaves--> 
+
+       <a href="paginaejemplo.html">Pagina externa</a>
+
+
+    <h1 style="background-color:lightsteelblue"> --Estilos en cascada "que se personaliza solo un objeto"</h1>
+        
+       <h2>IMPORTANCIA: DESDE EL ELEMENTO>DESDE EL HTML>DESDE EL CSS</h2>
+
+       <p style="background-color:darksalmon ">Texto con fondo diferente al de toda la pagina
+       esta escrito en la configuración del p</p>
+       
+       <style> h4{color:rgba(255, 228, 196,.6); background-color: rgb(129, 44, 204);}</style>
+       <h4>Prueba comparación style html vs hoja css, solo se cuenta h4 el style del html porque esta
+           primero
+       </h4>
+
+       <h4 style="color:violet; background-color: rgba(0, 255, 255, 0.192);">Prueba
+       Como el style está aplicado desde el elemento, se ignora el que está en el html o en el css</h4>
+
+
+   <h1>BOX MODEL CSS</h1>
+   
+
+       <img src="caja css.png" height="330px">                        <!--La información está en-->
+       <h5>padding prueba</h5>                                        <!--La hoja css-->
+</body>
+</html>

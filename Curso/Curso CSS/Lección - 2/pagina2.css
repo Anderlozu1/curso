@@ -1,0 +1,102 @@
+h1{ text-align: center;}
+
+.rojo{
+
+    background-color: blanchedalmond;
+    border: 5px dotted firebrick
+}
+
+.rosa{
+    
+   background-color: blanchedalmond;
+   border: 5px double hotpink
+}
+
+.amarillo{
+
+   background-color: blanchedalmond;
+   border: 5px dashed goldenrod
+}
+
+
+.azul{
+
+    background-color:blanchedalmond;
+    border: 5px solid lightskyblue;
+}
+
+.rojo, .rosa, .amarillo, .azul{color: black;}
+
+
+/*                 BORDES                 */
+
+.borde-punteado{
+    border-style: dotted;
+    border-width: 10px 5px 3px 8px;
+}
+
+.borde-descontinuo{
+    border-style: dashed;
+    border-width: thin;
+}
+
+.borde-solido{
+    border-style: solid;
+    border-width: medium;
+}
+
+.borde-doble{
+    border-style: double;
+    border-width: thick;
+}
+
+.borde-surco{
+    border-style: groove;
+    border-width: 10px 5px 14px;       /*10px arriba, 5px derecha y izquierda, 14px abajo*/
+}
+
+.borde-cresta{
+    border-style: ridge;
+    border-width: 10px 3px;            /*10px arriba y abajo, 3px izquierda y derecha*/
+}
+
+.borde-recuadro{
+    border: 10px inset;
+    border-color: crimson hotpink green lightblue;
+}
+
+.borde-outset{
+    border: 10px outset;
+    border-color: rgba(221, 68, 34, .3)
+}
+
+.sin-borde{
+    border: none;                                    /*Se cancela*/
+}
+
+.borde-oculto{
+    border: hidden;                                  /*Se oculta*/
+}
+
+.borde-mixto{
+    border-style: dotted solid inset ridge;          /*Se convinan los bordes*/
+}
+
+
+/*                    REDONDEDO                    */
+
+
+.borde-redondeado{
+    border: solid red;
+    border-width: 10px;
+    border-radius: 6px;
+}
+
+.redondeado{
+    border: forestgreen solid 7px;
+    border-radius: 20px 0px 20px 0;
+}
+
+.nose{border: blue 7px solid;
+      border-radius: 90%
+}
